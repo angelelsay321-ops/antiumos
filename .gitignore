@@ -1,0 +1,40 @@
+# Kernel Linux 6.12
+work/linux-arm64/
+
+# Archivos temporales
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Cachés
+.cache/
+__pycache__/
+*.pyc
+
+# Builds
+build/
+out/
+dist/
+target/
+
+# Imágenes generadas por pruebas
+*.img
+*.iso
+*.qcow2
+*.raw
+
+# Temporales de QEMU
+*.pid
+*.lock
+
+# Editores
+.vscode/
+.idea/
+
+# Secretos
+.env
+.env.*
+*.pem
+*.key
